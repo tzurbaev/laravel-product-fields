@@ -44,11 +44,11 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-version]: https://poser.pugx.org/tzurbaev/laravel-product-fields/version?format=flat
 [ico-license]: https://poser.pugx.org/tzurbaev/laravel-product-fields/license?format=flat
 [ico-travis]: https://api.travis-ci.org/tzurbaev/laravel-product-fields.svg?branch=master
-[ico-styleci]: https://styleci.io/repos/xxx/shield?branch=master&style=flat
+[ico-styleci]: https://styleci.io/repos/91601557/shield?branch=master&style=flat
 [ico-scrutinizer]: https://scrutinizer-ci.com/g/tzurbaev/laravel-product-fields/badges/quality-score.png?b=master
 
 [link-packagist]: https://packagist.org/packages/tzurbaev/laravel-product-fields
 [link-travis]: https://travis-ci.org/tzurbaev/laravel-product-fields
-[link-styleci]: https://styleci.io/repos/xxx
+[link-styleci]: https://styleci.io/repos/91601557
 [link-scrutinizer]: https://scrutinizer-ci.com/g/tzurbaev/laravel-product-fields/
 [link-author]: https://github.com/tzurbaev
