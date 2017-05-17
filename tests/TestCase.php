@@ -16,7 +16,10 @@ abstract class TestCase extends OrchestraTestCase
     {
         parent::setUp();
 
-        $this->artisan('migrate', ['--database' => 'testing']);
+        (new \CreateFieldsTable())->up();
+        (new \CreateFieldValuesTable())->up();
+        (new \CreateFieldablesTable())->up();
+        (new \CreateProductsTable())->up();
 
         (new \FieldsSeeder())->run();
         (new \ProductsSeeder())->run();

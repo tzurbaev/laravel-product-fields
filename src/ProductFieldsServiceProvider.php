@@ -19,7 +19,14 @@ class ProductFieldsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadMigrationsFrom(realpath(__DIR__.'/../database/migrations'));
+        $this->publishes([
+            realpath(__DIR__.'/../config/product-fields.php') => config_path('product-fields.php'),
+        ], 'config');
+
+        $this->publishes([
+            realpath(__DIR__.'/../database/migrations') => database_path('migrations'),
+        ], 'migrations');
+
         $this->mergeConfigFrom(realpath(__DIR__.'/../config/product-fields.php'), 'product-fields');
     }
 }
